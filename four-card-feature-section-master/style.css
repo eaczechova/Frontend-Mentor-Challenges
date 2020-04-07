@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  border: 1px solid red;
+  padding: 1.3rem;
+  text-align: center;
+}
+
+header {
+  border: 1px solid red;
+  border: 1px solid red;
+  padding: 5rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+header span {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+header span:first-of-type {
+  font-weight: 300;
+}
+header span:last-of-type {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+/*# sourceMappingURL=style.css.map */
